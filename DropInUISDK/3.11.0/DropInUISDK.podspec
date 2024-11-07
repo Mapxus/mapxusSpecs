@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.dependency "SnapKit", "~> 5.6.0"
   s.dependency "SQLite.swift", "0.14.1"
   s.dependency "lottie-ios", "~> 4.3.0"
-  s.dependency "Kingfisher", "8.0"
+  s.dependency "Kingfisher", "8.0.3"
 
   s.dependency "AFNetworking/Serialization", "~> 4.0.0"
   s.dependency "AFNetworking/Security", "~> 4.0.0"
