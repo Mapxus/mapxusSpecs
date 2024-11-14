@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  version = '3.12.0'
+  version = '4.0.0'
 
   s.name         = 'DropInUISDK'
   s.version      = version
