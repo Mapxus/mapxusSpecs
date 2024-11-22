@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking/Reachability", "~> 4.0.0"
   s.dependency "AFNetworking/NSURLSession", "~> 4.0.0"
   s.dependency "AFNetworking/UIKit", "~> 4.0.0"
-  
+
 end
