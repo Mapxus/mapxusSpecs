@@ -25,18 +25,18 @@ Pod::Spec.new do |s|
   # 保留并包含 dSYMs.zip 文件
   s.resources = ['dynamic/dSYMs/*.zip']
 
-  s.dependency "MapxusBaseSDK", "~> 6.8.0"
-  s.dependency "MapxusMapSDK", "~> 6.8.0"
-  s.dependency "MapxusComponentKit", "~> 6.8.0"
+  s.dependency "MapxusBaseSDK", "7.0.0"
+  s.dependency "MapxusMapSDK", "7.0.0"
+  s.dependency "MapxusComponentKit", "7.0.0"
   s.dependency "SnapKit", "~> 5.6.0"
   s.dependency "SQLite.swift", "0.14.1"
   s.dependency "lottie-ios", "~> 4.3.0"
   s.dependency "Kingfisher", "8.0.3"
 
-  s.dependency "AFNetworking/Serialization", "~> 4.0.0"
-  s.dependency "AFNetworking/Security", "~> 4.0.0"
-  s.dependency "AFNetworking/Reachability", "~> 4.0.0"
-  s.dependency "AFNetworking/NSURLSession", "~> 4.0.0"
-  s.dependency "AFNetworking/UIKit", "~> 4.0.0"
+  s.dependency "AFNetworking/Serialization", "~> 4.0.2"
+  s.dependency "AFNetworking/Security", "~> 4.0.2"
+  s.dependency "AFNetworking/Reachability", "~> 4.0.2"
+  s.dependency "AFNetworking/NSURLSession", "~> 4.0.2"
+  s.dependency "AFNetworking/UIKit", "~> 4.0.2"
 
 end
