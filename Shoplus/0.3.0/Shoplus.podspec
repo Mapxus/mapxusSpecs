@@ -22,8 +22,16 @@ Pod::Spec.new do |s|
   s.module_name  = 'Shoplus'
   s.vendored_frameworks = 'dynamic/Shoplus.xcframework'
 
-
+  s.dependency "AnywhereUtilCore", "1.1.5"
   s.dependency "MapxusBaseSDK", "7.0.0"
-  s.dependency "AnywhereUtilCore", "1.1.4"
+  s.dependency "MapxusMapSDK", "7.0.0"
+  s.dependency "MapxusComponentKit", "7.0.0"
+
+  s.dependency "AFNetworking/Serialization", "~> 4.0.2"
+  s.dependency "AFNetworking/Security", "~> 4.0.2"
+  s.dependency "AFNetworking/Reachability", "~> 4.0.2"
+  s.dependency "AFNetworking/NSURLSession", "~> 4.0.2"
+  s.dependency "AFNetworking/UIKit", "~> 4.0.2"
+
 
 end
