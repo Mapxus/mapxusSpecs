@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 
-  s.dependency "MapxusBaseSDK", "8.1.0"
-  s.dependency "MapxusMapSDK", "8.1.0"
-  s.dependency "MapxusComponentKit", "8.1.0"
+  s.dependency "MapxusBaseSDK", "8.4.0"
+  s.dependency "MapxusMapSDK", "8.4.0"
+  s.dependency "MapxusComponentKit", "8.4.0"
   s.dependency "SnapKit"
   s.dependency "SwiftyJSON", "~> 5.0.2"
   s.dependency "SDWebImage", "5.21.2"
