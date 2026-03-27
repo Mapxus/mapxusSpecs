@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   s.module_name  = 'DropInUISDK'
   s.vendored_frameworks = 'dynamic/DropInUISDK.xcframework'
 
-  s.dependency "MapxusBaseSDK", "8.5.1"
+  s.dependency "MapxusBaseSDK", "8.6.0"
 
 end
